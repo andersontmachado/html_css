@@ -1,6 +1,30 @@
-body {
-  color: rgba(1, 94, 1, 1);
-}
 h1 {
   text-align: center;
+}
+h2 {
+  margin-top: 0px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.comprar {
+  background: #a8f;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.item {
+  background: #f7f7f7;
+  border: 1px solid #e7e7e7;
+  border-radius: 4px;
+  padding: 10px;
+  display: grid;
+}
+.grid {
+  display: grid;
+  height: 800px;
+  grid-template-columns: auto auto;
+  gap: 20px;
 }
