@@ -1,6 +1,22 @@
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+.foto {
+  grid-column: 1;
+}
+.descricao {
+  grid-column: 1;
+}
+.comprar {
+  grid-column: 1;
+}
+
+/* Estilos Gerais */
 body {
   font-family: Arial;
-  margin: 400px;
+  margin: 40px;
 }
 h1,
 p {
