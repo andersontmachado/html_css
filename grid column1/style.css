@@ -1,16 +1,16 @@
 .grid {
   display: grid;
   gap: 20px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
 }
-.foto {
-  grid-column: 1;
+.titulo {
+  grid-column: 1 / -1;
 }
-.descricao {
-  grid-column: 1;
-}
-.comprar {
-  grid-column: 1;
+.info {
+  display: grid;
+  place-items: start;
+  place-self: center;
+  gap: 20px;
 }
 
 /* Estilos Gerais */
@@ -43,7 +43,7 @@ span {
   padding: 5px 10px;
   border-radius: 4px;
 }
-img {
+.foto {
   max-width: 100%;
   border-radius: 4px;
 }
