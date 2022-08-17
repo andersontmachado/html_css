@@ -55,16 +55,44 @@ p {
 .detalhe {
   width: 60px;
   height: 4px;
-  background: #e21;
+  background: #008000;
   /*display: inline-block; ele consegue definir com esse inline só,aí aparece,NÃO PRECISA MAIS DESSE ELEMENTO,POIS AGORA A INTRODUAÇAO VIROU GRID*/
   position: absolute; /*pra nao influenciar nada nos elementos é o absolute*/
   top: 30px;
   right: -30px; /*usando negativo para ficar ao centro,positivo ele fica só na introdução*/
 }
 .botao {
-  background: green;
+  background: green; /*Alterei a cor */
   color: white;
   padding: 15px 30px;
   border-radius: 4px;
   text-transform: uppercase;
+}
+.subtitulo {
+  font-size: 64px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.2);
+  text-align: right;
+  padding: 40px;
+  align-self: center;
+}
+.vantagens {
+  background: #fff;
+  padding: 40px;
+}
+.vantagens-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+}
+.vantagens-item p {
+  grid-column: 2;
+}
+.rodape {
+  background: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 40px; /*A soma do width + padding=140 no layout aparece a barrinha mostra que esta vazando a tela,então incluimos o box-sizing*/
+  box-sizing: border-box;
 }
