@@ -62,7 +62,7 @@ p {
   right: -30px; /*usando negativo para ficar ao centro,positivo ele fica só na introdução*/
 }
 .botao {
-  background: #e21;
+  background: green;
   color: white;
   padding: 15px 30px;
   border-radius: 4px;
