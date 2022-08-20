@@ -61,13 +61,7 @@ p {
   top: 30px;
   right: -30px; /*usando negativo para ficar ao centro,positivo ele fica só na introdução*/
 }
-.botao {
-  background: green; /*Alterei a cor */
-  color: white;
-  padding: 15px 30px;
-  border-radius: 4px;
-  text-transform: uppercase;
-}
+
 .subtitulo {
   font-size: 64px;
   text-transform: uppercase;
