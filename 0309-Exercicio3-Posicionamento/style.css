@@ -63,11 +63,12 @@ p {
 }
 /* CRIANDO A COR DO BOTÃO */
 .botao {
-  background: #f00;
+  background: #008000;
   color: #fff;
   padding: 15px 30px;
   border-radius: 4px;
   text-transform: uppercase;
+  /* PERFEITO */
 }
 
 .subtitulo {
